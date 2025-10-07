@@ -63,6 +63,9 @@ Key fields:
 
 Provides artist-level insights and complements album and track analysis.
 
+> [!NOTE]
+> The included sample CSV datasets each containing 10,000 rows are included for testing and demonstration. To reproduce the full analysis, [download the complete SQL dumps from here](https://github.com/MusicMoveArr/Datasets) and restore it locally.
+
 ---
 
 ## 🔑 Key Analyses & Visualizations
@@ -150,9 +153,6 @@ jupyter notebook spotify-database-analysis-2025.ipynb
 - `.env.example`
 - `requirements.txt`
 - `figures/`
-
-> [!NOTE]
-> The included sample CSV datasets are for illustrative purposes. The notebook expects the full PostgreSQL databases restored from the original SQL dump. [You can find them here](https://github.com/MusicMoveArr/Datasets).
 
 ---
 
