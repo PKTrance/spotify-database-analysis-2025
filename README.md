@@ -132,12 +132,15 @@ jupyter notebook spotify-database-analysis-2025.ipynb
 
 ## 📁 Files
 - `spotify-database-analysis-2025.ipynb`
-- `spotify_track.sql`
-- `spotify_album.sql`
-- `spotify_artist.sql`
+- `spotify_track_sample.csv`
+- `spotify_album_sample.csv`
+- `spotify_artist_sample.csv`
 - `.env.example`
 - `requirements.txt`
 - `figures/`
+
+> [!NOTE]
+> The included sample CSV datasets are for illustrative purposes. The notebook expects the full PostgreSQL databases restored from the original SQL dump. [You can find them here](https://github.com/MusicMoveArr/Datasets).
 
 ## 🙌 Acknowledgments
 
