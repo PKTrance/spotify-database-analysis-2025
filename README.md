@@ -2,6 +2,8 @@
 
 Explored Spotify’s July 2025 API dataset of tracks, albums, and artists to reveal insights on trends in the world's largest digital music streaming platform. Combined SQL, Python, and data visualization to highlight patterns and historical changes in the music industry.
 
+---
+
 ## 📊 Project Overview
 
 The goal of this project was to perform end-to-end exploratory data analysis (EDA) on Spotify’s dataset to understand how various factors influence popularity on the platform.
@@ -13,6 +15,8 @@ Key highlights include:
 - Visualizing music trends over time and across attributes.
 
 - Demonstrating practical skills in SQL, Python (`pandas`, `seaborn`, `matplotlib`), and data storytelling.
+
+---
 
 ## 📂 Datasets
 
@@ -59,6 +63,8 @@ Key fields:
 
 Provides artist-level insights and complements album and track analysis.
 
+---
+
 ## 🔑 Key Analyses & Visualizations
 
 The notebook explores several key questions:
@@ -89,6 +95,8 @@ The notebook explores several key questions:
 
 - Identified top record labels by their average album popularity.
 
+---
+
 ## 🛠️ Tech Stack
 
 - **Languages:** Python (pandas, numpy, seaborn, matplotlib), SQL
@@ -100,6 +108,8 @@ The notebook explores several key questions:
 - **Visualization:** Matplotlib, Seaborn, WordCloud
 
 - **Secrets Management:** `.env` file (for PostGreSQL access credentials)
+
+---
 
 ## ⚙️ Setup Instructions
 
@@ -130,6 +140,8 @@ DB_PORT=5432
 jupyter notebook spotify-database-analysis-2025.ipynb
 ```
 
+---
+
 ## 📁 Files
 - `spotify-database-analysis-2025.ipynb`
 - `spotify_track_sample.csv`
@@ -142,9 +154,13 @@ jupyter notebook spotify-database-analysis-2025.ipynb
 > [!NOTE]
 > The included sample CSV datasets are for illustrative purposes. The notebook expects the full PostgreSQL databases restored from the original SQL dump. [You can find them here](https://github.com/MusicMoveArr/Datasets).
 
+---
+
 ## 🙌 Acknowledgments
 
 Special thanks to [MusicMoveArr](https://github.com/MusicMoveArr/Datasets) for sourcing and sharing the Spotify datasets used in this project.
+
+---
 
 ## ✉️ Contact
 
