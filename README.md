@@ -117,13 +117,13 @@ The notebook explores several key questions:
 ## ⚙️ Setup Instructions
 
 **1. Clone the repository**
-```
+```bash
 git clone https://github.com/PKTrance/spotify-database-analysis-2025.git
 cd spotify-database-analysis-2025
 ```
 
 **2. Install dependencies**
-```
+```bash
 pip install -r requirements.txt
 ```
 
@@ -131,7 +131,7 @@ pip install -r requirements.txt
 
 Use `.env.example` to create a `.env` file in the project root with your credentials:
 
-```
+```bash
 DB_USER=your_username
 DB_PASS=your_password
 DB_HOST=localhost
@@ -139,7 +139,7 @@ DB_PORT=5432
 ```
 
 **4. Open the notebook:**
-```
+```bash
 jupyter notebook spotify-database-analysis-2025.ipynb
 ```
 
